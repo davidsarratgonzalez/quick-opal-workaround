@@ -10,6 +10,6 @@ sh ./bin/generate-ssl.sh
 
 # Start all services in detached mode
 echo "Starting Docker services..."
-docker-compose up -d
+docker compose up -d
 
 echo "Services started. You should be able to access Opal via https://localhost:8443" 
